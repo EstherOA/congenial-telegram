@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+}
+
+section {
+    padding: 80px 30px;
+}
+
+section h2 {
+    text-align: center;
+    color: #FCA311;
+    margin-bottom: 50px;
+}
+
+header {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4C3087;
+    color: white;
+    position: relative;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+
+hr {
+    width: 95%;
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+}
+
+#home {
+    height: 100vh;
+    padding: 0;
+}
+
+#home img {
+    width: 100%;
+    height: auto;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    background-color: #4C3087;
+    position: relative;
+    padding: 50px 30px;
+    height: 40vh;
+}
+
+.profile-photo-container {
+    box-shadow: 3px 3px 3px black;
+    background-color: white;
+    border-radius: 2%;
+    width: 250px;
+    height: 300px;
+    margin-top: 5em;
+    overflow: hidden;
+}
+
+.profile-description-container {
+    color: white;
+    align-self: flex-end;
+    margin-left: 50px;
+}
+
+.profile-description-container h1 {
+    color: #FCA311;
+    font-size: 2.5em;
+}
+
+.floating-container {
+    width: 90%;
+    box-shadow: 2px 3px 3px black;
+    border-radius: 10px;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+#about .floating-container{
+   background-color: #274179;
+}
+
+#featured .floating-container{
+    background-color: #4C3087;
+}
+
+#references {
+    background-color: #274179;
+}
+
+#references span {
+    color: #FCA311;
+    font-size: 2.5em;
+    width: 5%;
+    margin: 0 auto;
+    display: block;
+}
+
+.ref-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+}
+
+.ref-message, .ref-name {
+    color: white;
+}
+
+.ref-message {
+    font-size: 1.1em;
+}
+
+.ref-name {
+    text-align: right;
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#contact {
+    background-color: #414859;
+    color: #FCA311;
+}
+
+#contact form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    background-color: rgba(216, 215, 215, 0.2);
+    border: none;
+}
+
+form input {
+    height: 40px;
+}
+
+#submit {
+    margin: 0 auto;
+    width: 100px;
+    background-color: #C26FD7;
+    border: none;
+    display: block;
+}
+
+footer {
+    background-color: #C26FD7;    
+    text-align: center;
+    padding: 15px 0; 
+}
